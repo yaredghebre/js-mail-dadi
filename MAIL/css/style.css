@@ -1,0 +1,46 @@
+body {
+    background-color: lightgreen;
+}
+
+.container {
+    width: 50%;
+    height: 500px;
+    margin: 100px auto;
+    padding: 50px;
+    background-color: lightcoral;
+    border-radius: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.insert-email {
+    display: flex;
+    margin: 50px 0;
+    justify-content: center;
+    font-size: 2rem;
+}
+
+.email {
+    width: 200px;
+    margin: 0 10px;
+}
+
+.btn {
+    border-radius: 10px;
+    height: 50px;
+    width: 100px;
+}
+
+.fail, .success {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: .5s;
+    font-size: 2rem;
+    margin: 20px 0;
+}
+
+
